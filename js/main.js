@@ -2,7 +2,7 @@ var userDetails = kendo.observable({
     firstName : null,
     lastName :null,
     email:null,
-    picUrl:null,
+    picUrl:"",
     getAnother : function(){
         $.ajax({
   url: 'https://randomuser.me/api/?inc=gender,name,email,picture',
