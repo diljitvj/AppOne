@@ -3,6 +3,45 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#appOneDiv{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#userPic{
+    width: 150px;
+    height:150px;
+    border-radius: 75px;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#userPic>img{
+    width: 150px;
+}
+.userDetails{
+    background-color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.detailsHeading{
+    color: cornflowerblue;
+    font-weight: 600;
+
+
+}
+
+button{
+    margin-top: 10px;
+}
 
 
 
